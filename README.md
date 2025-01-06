@@ -18,7 +18,7 @@ show show-config # To set the global config for show
 ```bash
 stow ghostty # If you are inside the cloned directory
 # or
-stow ghostty nvim # this will add the symlinks for both ghostty and nvim
+stow ghostty nvim stow-config tmux # this will add the symlinks for all the directories
 ```
 
 4. To remove the symlinks, run `stow -D <directory>`
@@ -26,3 +26,10 @@ stow ghostty nvim # this will add the symlinks for both ghostty and nvim
 ```bash
 stow -D ghostty # If you are inside the cloned directory
 ```
+
+## List of Dotfiles
+
+1. [Ghostty](./ghostty)
+2. [Neovim](./nvim)
+3. [Stow](./stow-config)
+4. [Tmux](./tmux)
