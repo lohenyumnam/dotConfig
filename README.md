@@ -1,10 +1,16 @@
 ## Setup for Dotfiles using GNU Stow
 
-1. Clone the repository to your home directory
-2. Install GNU Stow
+1. Install GNU Stow
 
 ```bash
 brew install stow
+```
+
+2. Clone the repository to your home directory & Go to the cloned directory
+
+```bash
+cd ~/dotfiles
+show show-config # To set the global config for show
 ```
 
 3. Run `stow <directory>` to symlink the files in the directory to your home directory
