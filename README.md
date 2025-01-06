@@ -10,5 +10,5 @@ brew install stow
 3. Run `stow <directory>` to symlink the files in the directory to your home directory
 
 ```bash
-stow .dotfiles # If you are in home directory
+stow ghostty # If you are in home directory
 ```
