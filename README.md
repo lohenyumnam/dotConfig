@@ -16,5 +16,13 @@ show show-config # To set the global config for show
 3. Run `stow <directory>` to symlink the files in the directory to your home directory
 
 ```bash
-stow ghostty # If you are in home directory
+stow ghostty # If you are inside the cloned directory
+# or
+stow ghostty nvim # this will add the symlinks for both ghostty and nvim
+```
+
+4. To remove the symlinks, run `stow -D <directory>`
+
+```bash
+stow -D ghostty # If you are inside the cloned directory
 ```
