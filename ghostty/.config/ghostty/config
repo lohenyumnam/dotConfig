@@ -1,5 +1,5 @@
-theme = catppuccin-mocha
-# theme = MaterialDark
+# theme = catppuccin-mocha
+theme = MaterialDark
 
 # font-family = "CaskaydiaCove Nerd Font Mono"
 font-family = "Operator Mono Lig"
