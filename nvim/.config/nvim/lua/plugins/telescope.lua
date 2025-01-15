@@ -4,7 +4,7 @@ return {
   priority = 1000,
   extensions = {
     media_files = {
-      filetypes = { "png", "jpg", "jpeg", "mp4", "webm", "pdf" }, -- file types to support
+      filetypes = { "png", "jpg", "jpeg", "mp4", "webm", "pdf", "svg" }, -- file types to support
       find_cmd = "rg", -- command to find media files
     },
   },
@@ -16,3 +16,5 @@ return {
     require("telescope").load_extension("media_files")
   end,
 }
+-- thing need to install
+-- brew install imagemagick chafa
