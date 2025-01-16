@@ -42,6 +42,7 @@ return {
   },
   {
     "michaeldyrynda/carbon",
+    lazy = true,
     config = function()
       -- vim.cmd("colorscheme carbon")
     end,
@@ -51,7 +52,23 @@ return {
     "rose-pine/neovim",
     name = "rose-pine",
   },
-  -- Configure LazyVim to load gruvbox
+  -- gruvbox-material
+  {
+    "https://github.com/sainnhe/gruvbox-material",
+    lazy = true,
+  },
+  -- TokyoNight Transparent
+  {
+    "folke/tokyonight.nvim",
+    opts = {
+      transparent = true,
+      styles = {
+        sidebars = "transparent",
+        floats = "transparent",
+      },
+    },
+  },
+  -- Configure LazyVim to load colorscheme
   {
     "LazyVim/LazyVim",
     opts = {
@@ -59,6 +76,7 @@ return {
       -- colorscheme = "catppuccin",
       -- colorscheme = "material",
       -- colorscheme = "material-darker",
+      colorscheme = "tokyonight-night",
     },
   },
 }
