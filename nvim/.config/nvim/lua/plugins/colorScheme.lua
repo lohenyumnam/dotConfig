@@ -58,7 +58,7 @@ return {
       -- colorscheme = "gruvbox",
       -- colorscheme = "catppuccin",
       -- colorscheme = "material",
-      colorscheme = "material-darker",
+      -- colorscheme = "material-darker",
     },
   },
 }
