@@ -7,7 +7,7 @@ font-family = "Operator Mono Lig"
 font-size = 14
 adjust-cell-height = 55%
 
-background-opacity = 0.9
+background-opacity = 0.97
 background-blur-radius = 20
 
 window-height = 85
