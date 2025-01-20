@@ -7,3 +7,6 @@ edging = "antialias"
 [[font.normal]]
 family = "Operator Mono Lig"
 style = "W300"
+
+[[font.normal]]
+family = "Firacode Nerd Font"
