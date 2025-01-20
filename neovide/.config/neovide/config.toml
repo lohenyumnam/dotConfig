@@ -1,0 +1,9 @@
+frame = "transparent"
+[font]
+size = 13
+hinting = "full"
+edging = "antialias"
+
+[[font.normal]]
+family = "Operator Mono Lig"
+style = "W300"
