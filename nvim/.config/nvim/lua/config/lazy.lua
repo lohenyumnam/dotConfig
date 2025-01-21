@@ -55,3 +55,4 @@ require("lazy").setup({
 require("lspconfig").quick_lint_js.setup({
   filetypes = { "javascript", "typescript", "tsx", "jsx" },
 })
+require("config.neovide")
