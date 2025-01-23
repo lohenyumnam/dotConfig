@@ -72,8 +72,8 @@ return {
   {
     "projekt0n/github-nvim-theme",
     -- name = "github-theme",
-    lazy = false, -- make sure we load this during startup if it is your main colorscheme
-    priority = 1000, -- make sure to load this before all the other start plugins
+    -- lazy = false, -- make sure we load this during startup if it is your main colorscheme
+    -- priority = 1000, -- make sure to load this before all the other start plugins
     --   config = function()
     --     require("github-theme").setup({})
     --     vim.cmd("colorscheme github_dark")
@@ -83,12 +83,12 @@ return {
   -- :help everforest.txt
   {
     "sainnhe/everforest",
-    lazy = false, -- make sure we load this during startup if it is your main colorscheme
-    priority = 1000, -- make sure to load this before all the other start plugins
-    config = function()
-      vim.g.everforest_background = "hard" -- 'hard', 'medium'(default), 'soft'
-      vim.cmd("colorscheme everforest")
-    end,
+    -- lazy = false, -- make sure we load this during startup if it is your main colorscheme
+    -- priority = 1000, -- make sure to load this before all the other start plugins
+    -- config = function()
+    --   vim.g.everforest_background = "hard" -- 'hard', 'medium'(default), 'soft'
+    --   vim.cmd("colorscheme everforest")
+    -- end,
   },
 
   -- Configure LazyVim to load colorscheme
@@ -100,9 +100,9 @@ return {
       -- colorscheme = "material",
       -- colorscheme = "material-darker",
       -- colorscheme = "tokyonight-night",
-      -- colorscheme = "tokyonight",
+      colorscheme = "tokyonight",
       -- colorscheme = "github_dark",
-      colorscheme = "everforest",
+      -- colorscheme = "everforest",
     },
   },
 }
