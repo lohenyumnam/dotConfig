@@ -11,6 +11,7 @@ return {
           enabled = false,
         },
         vtsls = {
+          enabled = true,
           settings = {
             -- List of Settings
             -- https://github.com/yioneko/vtsls/blob/main/packages/service/configuration.schema.json
