@@ -3,8 +3,10 @@
 theme = TokyoNight
 
 # font-family = "CaskaydiaCove Nerd Font Mono"
-font-family = "Operator Mono Lig"
-font-size = 14
+# font-family = "Operator Mono Lig"
+# font-family = "JetBrainsMono Nerd Font Mono"
+font-family = "JetBrainsMono Nerd Font Propo"
+font-size = 15
 adjust-cell-height = 55%
 
 # background-opacity = 0.99
