@@ -6,7 +6,8 @@ theme = TokyoNight
 # font-family = "Operator Mono Lig"
 # font-family = "JetBrainsMono Nerd Font Mono"
 # font-family = "JetBrainsMono Nerd Font Propo"
-font-family = "MonoLisa Nerd Font Mono"
+# font-family = "MonoLisa Nerd Font Mono"
+font-family = "MonoLisa"
 font-size = 15
 adjust-cell-height = 75%
 
