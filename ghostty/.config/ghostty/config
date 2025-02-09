@@ -10,7 +10,7 @@ font-family = "MonoLisa Nerd Font Mono"
 font-size = 15
 adjust-cell-height = 75%
 
-# background-opacity = 0.99
+# background-opacity = 0.85
 background-blur-radius = 20
 
 window-height = 85
