@@ -1,0 +1,59 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "icon_theme": "VSCode Icons (Dark)",
+  "vim_mode": true,
+  // "disable_ai": true,
+  "telemetry": {
+    "metrics": false,
+    "diagnostics": false
+  },
+  "ui_font_size": 14,
+  "ui_font_family": "JetBrains Mono NL",
+  "buffer_font_size": 13,
+  "buffer_font_family": "MonoLisa",
+  "buffer_line_height": {
+    "custom": 2
+  },
+  "terminal": {
+    "font_family": "FiraMono Nerd Font Mono"
+  },
+  "theme": {
+    "mode": "system",
+    "light": "Monokai Nebula",
+    "dark": "Catppuccin Mocha (Blur)"
+  },
+  "inlay_hints": {
+    "enabled": true,
+    "show_type_hints": false,
+    "show_parameter_hints": true,
+    "show_other_hints": true,
+    "show_background": false,
+    "edit_debounce_ms": 700,
+    "scroll_debounce_ms": 50,
+    "toggle_on_modifiers_press": null
+  },
+  "diagnostics": {
+    "inline": {
+      "enabled": true,
+      "max_severity": null // same values as the `diagnostics_max_severity` from the editor settings
+    }
+  },
+  "tabs": {
+    "show_diagnostics": "all",
+    "file_icons": true,
+    "git_status": true
+  },
+  "features": {
+    "edit_prediction_provider": null
+  },
+  "agent": {
+    "enabled": false
+  }
+}

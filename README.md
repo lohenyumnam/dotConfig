@@ -10,7 +10,7 @@ brew install stow
 
 ```bash
 cd ~/dotfiles
-show show-config # To set the global config for show
+stow stow-config # To set the global config for show
 ```
 
 3. Run `stow <directory>` to symlink the files in the directory to your home directory
@@ -33,3 +33,4 @@ stow -D ghostty # If you are inside the cloned directory
 2. [Neovim](./nvim)
 3. [Stow](./stow-config)
 4. [Tmux](./tmux)
+5. [kitty](./kitty)
