@@ -27,7 +27,7 @@
   "theme": {
     "mode": "system",
     "light": "Monokai Nebula",
-    "dark": "Catppuccin Mocha (Blur)"
+    "dark": "Catppuccin Mocha - No Italics"
   },
   "inlay_hints": {
     "enabled": true,
@@ -55,5 +55,6 @@
   },
   "agent": {
     "enabled": false
-  }
+  },
+  "title_bar": {}
 }
