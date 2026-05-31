@@ -7,27 +7,67 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "icon_theme": "VSCode Icons (Dark)",
-  "vim_mode": true,
+  "code_lens": "on",
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "cli_default_open_behavior": "new_window",
+  "agent_servers": {
+    "cursor": {
+      "type": "registry"
+    },
+    "claude-acp": {
+      "type": "registry"
+    }
+  },
+  "agent": {
+    "dock": "right",
+    "sidebar_side": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "project_panel": {
+    "dock": "left"
+  },
+  "edit_predictions": {
+    "codestral": {
+      "api_url": "https://codestral.mistral.ai"
+    },
+    "mode": "eager",
+  },
+  "disable_ai": true,
+
+  "indent_guides": {
+    "coloring": "indent_aware",
+  },
+  "colorize_brackets": true,
+  "icon_theme": "VSCode Icons for Zed (Light NestJS)",
+  "vim_mode": false,
   // "disable_ai": true,
   "telemetry": {
     "metrics": false,
-    "diagnostics": false
+    "diagnostics": false,
   },
   "ui_font_size": 14,
   "ui_font_family": "JetBrains Mono NL",
   "buffer_font_size": 13,
   "buffer_font_family": "MonoLisa",
   "buffer_line_height": {
-    "custom": 2
+    "custom": 2,
   },
   "terminal": {
-    "font_family": "FiraMono Nerd Font Mono"
+    "font_family": "FiraCode Nerd Font Mono",
   },
   "theme": {
-    "mode": "system",
-    "light": "Monokai Nebula",
-    "dark": "Catppuccin Mocha - No Italics"
+    "mode": "dark",
+    "light": "GitHub Light",
+    "dark": "Base16 Equilibrium Gray Dark",
   },
   "inlay_hints": {
     "enabled": true,
@@ -37,24 +77,18 @@
     "show_background": false,
     "edit_debounce_ms": 700,
     "scroll_debounce_ms": 50,
-    "toggle_on_modifiers_press": null
+    "toggle_on_modifiers_press": null,
   },
   "diagnostics": {
     "inline": {
       "enabled": true,
-      "max_severity": null // same values as the `diagnostics_max_severity` from the editor settings
-    }
+      "max_severity": null, // same values as the `diagnostics_max_severity` from the editor settings
+    },
   },
   "tabs": {
     "show_diagnostics": "all",
     "file_icons": true,
-    "git_status": true
+    "git_status": true,
   },
-  "features": {
-    "edit_prediction_provider": null
-  },
-  "agent": {
-    "enabled": false
-  },
-  "title_bar": {}
+  "title_bar": {},
 }
