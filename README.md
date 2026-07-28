@@ -34,3 +34,4 @@ stow -D ghostty # If you are inside the cloned directory
 3. [Stow](./stow-config)
 4. [Tmux](./tmux)
 5. [kitty](./kitty)
+6. [herd](./herd)

@@ -1,6 +1,6 @@
 # theme = catppuccin-mocha
 # theme = MaterialDark
-theme = TokyoNight
+# theme = TokyoNight
 
 # font-family = "CaskaydiaCove Nerd Font Mono"
 # font-family = "Operator Mono Lig"
@@ -26,4 +26,8 @@ window-save-state = always
 # window-padding-balance = true
 # window-padding-color = extend
 
-window-decoration = false
+window-padding-x = 10
+window-padding-y = 10
+window-padding-balance = true
+
+window-decoration = true
